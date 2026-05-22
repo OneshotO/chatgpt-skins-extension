@@ -31,6 +31,24 @@ This extension lets you quickly adjust the interface without changing your brows
 - Eye Protection
 - Rick & Morty
 
+## Screenshots
+
+Extension popup:
+
+![ChatGPT Skins popup](screenshots/bar.png)
+
+Default ChatGPT view without added styles:
+
+![Default ChatGPT view](screenshots/default.png)
+
+Large text for easier studying:
+
+![Large font example](screenshots/large.png)
+
+Theme examples:
+
+![Theme examples](screenshots/themes.png)
+
 ## Installation
 
 This extension is not published on the Chrome Web Store. You can install it manually:
