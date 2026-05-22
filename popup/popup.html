@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <div class="popup-container">
+      <h3>ChatGPT Skins</h3>
+
+      <div class="control-group">
+        <label for="themeSelect">Theme</label>
+        <select id="themeSelect">
+          <option value="default">Default</option>
+          <option value="dark">Dark</option>
+          <option value="neon">Neon</option>
+          <option value="eye">Eye Protection</option>
+          <option value="rick">Rick & Morty</option>
+        </select>
+      </div>
+
+      <hr />
+
+      <div class="control-group">
+        <label for="accentColor">Accent color</label>
+        <div class="color-input">
+          <input type="color" id="accentColor" name="accentColor" value="#39ff14" />
+          <span class="color-value" data-target="accentColor"></span>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <label for="fontSizeRange">Font size</label>
+        <div class="range-input">
+          <input type="range" id="fontSizeRange" name="fontSizeRange" min="85" max="130" step="5" value="100" />
+          <span id="fontSizeValue">100%</span>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <label for="contentWidthRange">Content width</label>
+        <div class="range-input">
+          <input type="range" id="contentWidthRange" name="contentWidthRange" min="50" max="100" step="5" value="50" />
+          <span id="contentWidthValue">50%</span>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <label for="chatTextColor">Chat text color</label>
+        <div class="color-input">
+          <input type="color" id="chatTextColor" name="chatTextColor" value="#e0ffe0" />
+          <span class="color-value" data-target="chatTextColor"></span>
+        </div>
+      </div>
+
+      <button id="resetBtn" class="reset-btn">Reset customizations</button>
+      <div class="credit">by <a href="https://t.me/phoenix_X" target="_blank" rel="noopener noreferrer">OneShot</a></div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

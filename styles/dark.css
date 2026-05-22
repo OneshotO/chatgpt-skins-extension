@@ -1,0 +1,9 @@
+body {
+  background-color: #111 !important;
+  color: #eee !important;
+}
+
+.chat-message {
+  background-color: #222 !important;
+  border-radius: 10px;
+}
